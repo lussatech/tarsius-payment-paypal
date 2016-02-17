@@ -1,24 +1,41 @@
 {
-    "name": "tarsius-payment-paypal",
-    "version": "0.0.1",
-    "private": true,
-    "description": "tarsius plugin for pay via paypal",
-    "author": "",
-    "license": "MIT",
-    "tarsius": {
-        "type": "payment",
-        "name": "Paypal Payment Gateway",
-        "configs": [
-            {
-                "name": "clientId",
-                "title": "Client ID",
-                "type": "string"
-            },
-            {
-                "name": "clientSecret",
-                "title": "Client Secret",
-                "type": "string"
-            }
-        ]
-    }
+  "name": "tarsius-payment-paypal",
+  "version": "0.0.1",
+  "description": "tarsius plugin for pay via paypal",
+  "author": "muhammad hasan <hasan@lussa.net>",
+  "license": "MIT",
+  "tarsius": {
+    "type": "payment",
+    "name": "Paypal Payment Gateway",
+    "configs": [
+      {
+        "name": "clientId",
+        "title": "Client ID",
+        "type": "string"
+      },
+      {
+        "name": "clientSecret",
+        "title": "Client Secret",
+        "type": "string"
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lussatech/tarsius-payment-paypal.git"
+  },
+  "keywords": [
+    "tarsius",
+    "nodejs",
+    "paypal",
+    "payment"
+  ],
+  "bugs": {
+    "url": "https://github.com/lussatech/tarsius-payment-paypal/issues"
+  },
+  "homepage": "https://github.com/lussatech/tarsius-payment-paypal#readme"
 }
