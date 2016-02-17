@@ -1,0 +1,24 @@
+{
+    "name": "tarsius-payment-paypal",
+    "version": "0.0.1",
+    "private": true,
+    "description": "tarsius plugin for pay via paypal",
+    "author": "",
+    "license": "MIT",
+    "tarsius": {
+        "type": "payment",
+        "name": "Paypal Payment Gateway",
+        "configs": [
+            {
+                "name": "clientId",
+                "title": "Client ID",
+                "type": "string"
+            },
+            {
+                "name": "clientSecret",
+                "title": "Client Secret",
+                "type": "string"
+            }
+        ]
+    }
+}
